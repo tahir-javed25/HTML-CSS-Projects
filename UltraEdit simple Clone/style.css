@@ -1,0 +1,101 @@
+  /* .logo{
+            background-color: blue;
+        } */
+        header {
+            width: 90vw;
+            margin: auto;
+            /* border: 2px solid gray; */
+        }
+
+        .logo img {
+            width: 134px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .right ul {
+            display: flex;
+            gap: 34px;
+        }
+
+        .right ul li {
+            list-style-type: none;
+            display: flex;
+            cursor: pointer;
+            /* align-items: center; */
+        }
+
+        .right ul li:hover {
+            background-color: bisque;
+            border: 1px solid balck;
+            border-radius: 6px;
+            width: 100px;
+            height: 50px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main {
+            width: 60vw;
+            margin: 50px auto;
+            /* border: 2px solid green; */
+
+
+        }
+
+        main .limac {
+            text-align: center;
+            /* border: 2px solid gray; */
+        }
+
+        .limac :first-child {
+            font-size: 32px;
+            font-weight: 500;
+        }
+
+        .limac button {
+            border: none;
+            background-color: skyblue;
+            width: 400px;
+            height: 50px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 800;
+            color: white;
+        }
+
+        .limac button:hover {
+            cursor: pointer;
+            background-color: darkblue;
+        }
+
+        main .download {
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: 20vw 20vw 20vw;
+        }
+
+        main .download div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: whitesmoke;
+            border-radius: 10px;
+            margin: 15px;
+            height: 30vh;
+        }
+        .download div button{
+            width: 200px;
+            height: 50px;
+            background-color: lightgreen;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .download div button:hover{
+            background-color: darkgreen;
+        }
